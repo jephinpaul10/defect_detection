@@ -46,8 +46,7 @@ A top level module is used to ensure smooth transition between different stages 
 ## How to run this code?
  1. Clone the repository
     ```bash
-   git clone https://github.com/jephinpaul10/defect_detection.git
-   ```
+   git clone https://github.com/jephinpaul10/defect_detection.git```
  3. Open the project in your simulator (Vivado / ModelSim)
  4. Set ```top_level.v``` as the top module.
  5. Run ```top_level_tb.v``` testbench.

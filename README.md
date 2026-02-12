@@ -44,14 +44,14 @@ For the neural network, a fully connected architecture of 2 layers is used. The 
 A top level module is used to ensure smooth transition between different stages in the execution. It takes in the image data, preprocesses it, feed it into the network and give the final output as 1 or 0 for ‘Crack detected’ or ‘No crack detected’ respectively.
 
 ## How to run this code?
- 1. Clone the repository
-    ```bash
-   git clone https://github.com/jephinpaul10/defect_detection.git
-   ```
+ 1. ```bash
+git clone https://github.com/jephinpaul10/defect_detection.git
+
+```
  3. Open the project in your simulator (Vivado / ModelSim)
- 4. Set ```top_level.v``` as the top module.
- 5. Run ```top_level_tb.v``` testbench.
- 6. Observe ```inference_output``` in the waveform viewer.
+ 4. Set `top_level.v` as the top module.
+ 5. Run `top_level_tb.v` testbench.
+ 6. Observe `inference_output` in the waveform viewer.
 
 ## Training Results (TensorFlow)
 

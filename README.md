@@ -18,7 +18,7 @@ Dataset link: https://www.kaggle.com/datasets/arunrk7/surface-crack-detection
 
 The collected dataset contains 5,000 images of concrete surfaces in which 2,500 are positive (with cracks) and 2,500 are negative (without cracks) with 227x227 pixels. 
 The images were compressed to 64x64 pixels and was converted into array format of pixel intensities and then stored as .hex file.
-The python script used to convert the images into csv and label them, and then convert them to hex format is also provided in the repo.
+The python scripts used to convert the image  into csv and label them `image_convert.py` , and then convert them to hex format `extract1.py` is also provided in the repo.
 
 ## Technical Specifications
 
